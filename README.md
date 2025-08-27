@@ -43,11 +43,15 @@ Explain what each test does and why
 Examples here
 ```
 
-## Project Instructions
+# Project Instructions
 
 This section should contain all the student deliverables for this project.
 
-
+# Licensing, Authors, Acknowledgements, etc.
 ## License
-
 [License](LICENSE.txt)
+## Author
+Prakash Binwal
+## Acknowledgement
+- Udacity project motivation
+- Other Datascience leaning and trainings
