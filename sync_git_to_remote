@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+  echo "Provide GITHUB repo URL as parameter "
+  echo "$1 <Repo_URL>"
+else
+  #echo "Syncing to Repo: $1"
+  source  $1/bin/activate
+  git remote add origin $1
+  git branch -M main
+  git push -u origin main
+fi
+
