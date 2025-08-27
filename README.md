@@ -2,12 +2,12 @@
 ## Project motivation
 In the IBM Watson Studio, there is a large collaborative community ecosystem of articles, datasets, notebooks, and other AI and ML assets. Users of the system interact with all of this. The requirement here is to created a recommendation system to enhance the user experience and connect them with assets. This in aimed at personalization of the experience for each user.
 
-# Project Title
+## Project Title
 
 To create a Article Recommendation System based on user's interaction with various articles. 
 
 
-## Getting Started
+# Getting Started
 
 ### Dependencies
 
@@ -31,7 +31,7 @@ Dependencies are enlisted in requirements.txt file
     - Run the notebook 
 ```
 
-## Testing
+# Testing
 
 Explain the steps needed to run any automated tests
 
@@ -47,13 +47,6 @@ Examples here
 
 This section should contain all the student deliverables for this project.
 
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
 
 ## License
 
