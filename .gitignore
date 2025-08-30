@@ -1,3 +1,4 @@
 .env
 sync_git_to_remote
 p
+backup
