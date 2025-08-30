@@ -7534,7 +7534,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
@@ -7546,7 +7546,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <span class="c1"># This flag is not used in the actual project code.</span>
 <span class="c1"># It is only used to control the execution of Experimental Cells in the notebook.</span>
 <span class="c1"># You can ignore it.</span>
-<span class="n">exp</span><span class="o">=</span><span class="kc">True</span>
+<span class="n">exp</span><span class="o">=</span><span class="kc">False</span>
 
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
     <span class="s1">'data/user-item-interactions.csv'</span><span class="p">,</span> 
@@ -11890,34 +11890,12 @@ Pick the smallest number of latent features after which the increase in accuracy
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># # Example: Save top 5 recommendations for each user to a CSV</span>
-<span class="c1"># user_recs = []</span>
-<span class="c1"># for user_id in user_item.index:</span>
-<span class="c1">#     recs = user_user_recs_part2(user_id, m=5)[0]</span>
-<span class="c1">#     user_recs.append({'user_id': user_id, 'recommendations': recs})</span>
-
-<span class="c1"># import pandas as pd</span>
-<span class="c1"># user_recs_df = pd.DataFrame(user_recs)</span>
-<span class="c1"># user_recs_df.to_csv('user_recommendations.csv', index=False)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [63]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">subprocess</span><span class="w"> </span><span class="kn">import</span> <span class="n">call</span>
@@ -11928,10 +11906,25 @@ Pick the smallest number of latent features after which the increase in accuracy
 <span class="sd">    """</span>
     <span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
     <span class="n">call</span><span class="p">([</span><span class="s1">'python3'</span><span class="p">,</span> <span class="s2">"-m"</span><span class="p">,</span> <span class="s1">'nbconvert'</span><span class="p">,</span> <span class="s1">'--to'</span><span class="p">,</span> <span class="n">toFormat</span><span class="p">,</span> <span class="n">notebook</span><span class="p">])</span>
-<span class="c1"># convert_notebook_to_('Recommendations_with_IBM.ipynb',toFormat="html")</span>
+<span class="n">convert_notebook_to_</span><span class="p">(</span><span class="s1">'Recommendations_with_IBM.ipynb'</span><span class="p">,</span><span class="n">toFormat</span><span class="o">=</span><span class="s2">"html"</span><span class="p">)</span>
 <span class="c1"># convert_notebook_to_('Recommendations_with_IBM.ipynb',toFormat="pdf")</span>
 <span class="c1"># !python3 -m nbconvert --to html Recommendations_with_IBM.ipynb</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>[NbConvertApp] Converting notebook Recommendations_with_IBM.ipynb to html
+[NbConvertApp] WARNING | Alternative text is missing on 4 image(s).
+[NbConvertApp] Writing 662162 bytes to Recommendations_with_IBM.html
+</pre>
 </div>
 </div>
 </div>

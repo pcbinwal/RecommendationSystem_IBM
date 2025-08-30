@@ -31,17 +31,7 @@ Dependencies are enlisted in requirements.txt file
     - Run the notebook 
 ```
 
-## Testing
 
-Explain the steps needed to run any automated tests
-
-#### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
 
 ## Project Instructions
 
